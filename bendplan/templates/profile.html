@@ -1,0 +1,20 @@
+
+{% extends "index.html"%}
+
+{% block title%}
+    Profile Page
+{% endblock %}
+
+
+{% block content%}
+    <section class="banner"></section>
+
+    <section id="profile" class="hidden">
+        <h1>hi there</h1>
+        <p >Lets Put Profile here</p>
+    </section>
+
+    
+    <script defer src="{{url_for('static', filename='animate.js')}}"></script>
+
+{% endblock %}
